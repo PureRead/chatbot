@@ -1,6 +1,9 @@
 import streamlit as st
 from openai import OpenAI
 
+
+st.write(st.secrets["openapikey"])
+
 # Show title and description.
 st.title("💬 Chatbot")
 st.write(
